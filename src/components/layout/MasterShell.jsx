@@ -3,7 +3,7 @@ import { Icon } from '../Icons';
 
 // Import all pages
 import Marketplace from '../../pages/Marketplace';
-import MintGallery from '../../pages/MintGallery';
+import GalleryMint from '../../pages/GalleryMint';
 import Vault from '../../pages/Vault';
 import Redeem from '../../pages/Redeem';
 import MyOffers from '../../pages/MyOffers';
@@ -113,7 +113,7 @@ const MasterShell = () => {
 
             <main className="max-w-7xl mx-auto px-4 md:px-6 py-8">
                 {currentView === 'Marketplace' && <Marketplace />}
-                {currentView === 'Mint' && <MintGallery />}
+                {currentView === 'Mint' && <GalleryMint />}
                 {currentView === 'Vault' && <Vault />}
                 {currentView === 'Redeem' && <Redeem />}
                 {currentView === 'Offers' && <MyOffers />}
